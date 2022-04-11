@@ -3,7 +3,7 @@ Pyramid Grafting Network for One-Stage High Resolution Saliency Detection. CVPR 
 
 
 
-# Citation
+## Citation
 ```
 @inproceedings{xie2022pyramid,
     author    = {Xie, Chenxi and Xia, Changqun and Ma, Mingcan and Zhao, Zhirui and Chen, Xiaowu and Li, Jia},
