@@ -6,6 +6,7 @@
 <p align="center">
   <img src="https://github.com/iCVTEAM/PGNet/blob/master/PGNet.png?raw=true" width="85%">
 </p>
+
 > Pyramid Grafting Network for One-Stage High Resolution Saliency Detection. CVPR 2022,            
 > *CVPR 2022  ([arXiv 2204.05041](https://arxiv.org/abs/2204.05041))*
 
