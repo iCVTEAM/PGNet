@@ -19,6 +19,8 @@ Recent salient object detection (SOD) methods based on deep neural network have 
   <img src="https://github.com/iCVTEAM/PGNet/blob/master/005960.gif?raw=true" width="85%">
 </p>
 
+> Visual display for sample in UHRSD dataset   
+
 * Our **UHRSD** (Ultra High-Resolution Saliency Detection) Dataset:  [Google Drive](https://drive.google.com/drive/folders/1u3K65AaKh78P5qKXTsMjVI1SvBXNAPFk?usp=sharing)
 
 We also provide the resized version UHRSD_2k for convenient downloads.
