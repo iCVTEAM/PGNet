@@ -18,9 +18,9 @@ Recent salient object detection (SOD) methods based on deep neural network have 
 > Visual display for sample in UHRSD dataset   
 
 <p class="third">
-  <img src="https://github.com/iCVTEAM/PGNet/blob/master/005960.gif?raw=true" width="40%">
-  <img src="https://github.com/iCVTEAM/PGNet/blob/master/005937.gif?raw=true" width="40%">
-  <img src="https://github.com/iCVTEAM/PGNet/blob/master/005871.gif?raw=true" width="85%">
+  <img src="https://github.com/iCVTEAM/PGNet/blob/master/005960.gif?raw=true" width="33%">
+  <img src="https://github.com/iCVTEAM/PGNet/blob/master/005937.gif?raw=true" width="33%">
+  <img src="https://github.com/iCVTEAM/PGNet/blob/master/005871.gif?raw=true" width="33%">
 </p>
 
 <!-- <p align="center">
