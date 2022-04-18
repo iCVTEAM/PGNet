@@ -17,18 +17,19 @@ Recent salient object detection (SOD) methods based on deep neural network have 
 
 > Visual display for sample in UHRSD dataset   
 
-<p class="half">
+<p class="third">
   <img src="https://github.com/iCVTEAM/PGNet/blob/master/005960.gif?raw=true" width="40%">
   <img src="https://github.com/iCVTEAM/PGNet/blob/master/005937.gif?raw=true" width="40%">
+  <img src="https://github.com/iCVTEAM/PGNet/blob/master/005871.gif?raw=true" width="85%">
 </p>
 
 <!-- <p align="center">
   <img src="https://github.com/iCVTEAM/PGNet/blob/master/005937.gif?raw=true" width="40%">
 </p> -->
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github.com/iCVTEAM/PGNet/blob/master/005871.gif?raw=true" width="85%">
-</p>
+</p> -->
 
 
 To relief the lack of high-resolution datasets for SOD, we contribute the Ultra High-Resolution for Saliency Detection (UHRSD) dataset with a total of 5,920 images in 4K(3840 × 2160) or higher resolution, including 4,932 images for training and 988 images for testing. A total of 5,920 images were manually selected from websites (e.g. Flickr Pixabay) with free copyright. Our dataset is diverse in terms of image scenes, with a balance of complex and simple salient objects of various size.
