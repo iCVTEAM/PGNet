@@ -45,7 +45,15 @@ We provide the original 4K version and the convenient 2K version of our UHRSD (U
 <!-- We also provide the resized version UHRSD_2k for convenient downloads in the same url: [Google Drive](https://drive.google.com/drive/folders/1u3K65AaKh78P5qKXTsMjVI1SvBXNAPFk?usp=sharing). -->
 
 ## Usage
+### Requirements
+* Python 3.8
+* Pytorch 1.70
+* OpenCV
+* Numpy
+* Apex
+* Timm
 
+### Directory
 ````
 -- src 
 -- model (saved model)
