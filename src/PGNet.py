@@ -169,7 +169,7 @@ class DB3(nn.Module):
     def forward(self,s,r,up):
         up = F.interpolate(up,size=s.size()[2:],mode='bilinear',align_corners=True)
         s = self.sqz_s1(s)
-        r,_ = self.sqz_r4(r)
+        r = self.sqz_r4(r)
         sr = self.conv3x3(s+r)
         out,_  =self.db2(sr,up)
         return out,out
