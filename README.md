@@ -47,7 +47,7 @@ We provide the original 4K version and the convenient 2K version of our UHRSD (U
 ## Usage
 ### Requirements
 * Python 3.8
-* Pytorch 1.70
+* Pytorch 1.7.1
 * OpenCV
 * Numpy
 * Apex
