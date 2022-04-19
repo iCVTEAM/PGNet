@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/iCVTEAM/PGNet/blob/master/PGNet.png?raw=true" width="85%">
+  <img src="https://github.com/iCVTEAM/PGNet/blob/master/figure/PGNet.png?raw=true" width="85%">
 </p>
 
 > Pyramid Grafting Network for One-Stage High Resolution Saliency Detection. CVPR 2022,            
@@ -18,9 +18,9 @@ Recent salient object detection (SOD) methods based on deep neural network have 
 > Visual display for sample in UHRSD dataset. Best viewd by clikcing and zooming in.   
 
 <p class="third">
-  <img src="https://github.com/iCVTEAM/PGNet/blob/master/005960.gif?raw=true" width="30%">
-  <img src="https://github.com/iCVTEAM/PGNet/blob/master/005937.gif?raw=true" width="30%">
-  <img src="https://github.com/iCVTEAM/PGNet/blob/master/005871.gif?raw=true" width="30%">
+  <img src="https://github.com/iCVTEAM/PGNet/blob/master/figure/005960.gif?raw=true" width="30%">
+  <img src="https://github.com/iCVTEAM/PGNet/blob/master/figure/005937.gif?raw=true" width="30%">
+  <img src="https://github.com/iCVTEAM/PGNet/blob/master/figure/005871.gif?raw=true" width="30%">
 </p>
 
 <!-- <p align="center">
