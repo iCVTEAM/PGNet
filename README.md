@@ -15,7 +15,7 @@ Recent salient object detection (SOD) methods based on deep neural network have 
 
 ## Ultra High-Resolution Saliency Detection Dataset
 
-> Visual display for sample in UHRSD dataset   
+> Visual display for sample in UHRSD dataset. Best viewd by clikcing and zooming in.   
 
 <p class="third">
   <img src="https://github.com/iCVTEAM/PGNet/blob/master/005960.gif?raw=true" width="30%">
@@ -38,11 +38,11 @@ To our knowledge, it is the largest dataset in both quantity and resolution for 
 
 
 
-* Our **UHRSD** (Ultra High-Resolution Saliency Detection) Dataset:  [Google Drive](https://drive.google.com/drive/folders/1u3K65AaKh78P5qKXTsMjVI1SvBXNAPFk?usp=sharing)
+* Our **UHRSD** (Ultra High-Resolution Saliency Detection) Dataset: 
 
+We provide the original 4K version and the convenient 2K version of our UHRSD (Ultra High-Resolution Saliency Detection) Dataset for download: [Google Drive](https://drive.google.com/drive/folders/1u3K65AaKh78P5qKXTsMjVI1SvBXNAPFk?usp=sharing)
 
-
-We also provide the resized version UHRSD_2k for convenient downloads in the same url: [Google Drive](https://drive.google.com/drive/folders/1u3K65AaKh78P5qKXTsMjVI1SvBXNAPFk?usp=sharing).
+<!-- We also provide the resized version UHRSD_2k for convenient downloads in the same url: [Google Drive](https://drive.google.com/drive/folders/1u3K65AaKh78P5qKXTsMjVI1SvBXNAPFk?usp=sharing). -->
 
 ## Saliency Map
 
