@@ -44,6 +44,24 @@ We provide the original 4K version and the convenient 2K version of our UHRSD (U
 
 <!-- We also provide the resized version UHRSD_2k for convenient downloads in the same url: [Google Drive](https://drive.google.com/drive/folders/1u3K65AaKh78P5qKXTsMjVI1SvBXNAPFk?usp=sharing). -->
 
+## Usage
+
+````
+-- src 
+-- model (saved model)
+-- pre (pretrained model)
+-- result (saliency maps)
+-- data (train dataset and test dataset)
+   |-- DUTS-TR+HR
+   |   |-- image
+   |   |-- mask
+   |-- UHRSOD+HRSOD
+   |   |--image
+   |   |--mask
+   ...
+   
+````
+
 ## Saliency Map
 
 Trained on DUTS-TR:[Google Drive](https://drive.google.com/file/d/1x4wZTvobHMvuy5JVIupDJG2qImyvsFNY/view?usp=sharing)
