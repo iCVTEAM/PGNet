@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/iCVTEAM/PGNet/blob/master/PGNet.png?raw=true" width="85%">
+  <img src="https://github.com/iCVTEAM/PGNet/blob/master/figure/PGNet.png?raw=true" width="85%">
 </p>
 
 > Pyramid Grafting Network for One-Stage High Resolution Saliency Detection. CVPR 2022,            
@@ -18,9 +18,9 @@ Recent salient object detection (SOD) methods based on deep neural network have 
 > Visual display for sample in UHRSD dataset. Best viewd by clikcing and zooming in.   
 
 <p class="third">
-  <img src="https://github.com/iCVTEAM/PGNet/blob/master/005960.gif?raw=true" width="30%">
-  <img src="https://github.com/iCVTEAM/PGNet/blob/master/005937.gif?raw=true" width="30%">
-  <img src="https://github.com/iCVTEAM/PGNet/blob/master/005871.gif?raw=true" width="30%">
+  <img src="https://github.com/iCVTEAM/PGNet/blob/master/figure/005960.gif?raw=true" width="30%">
+  <img src="https://github.com/iCVTEAM/PGNet/blob/master/figure/005937.gif?raw=true" width="30%">
+  <img src="https://github.com/iCVTEAM/PGNet/blob/master/figure/005871.gif?raw=true" width="30%">
 </p>
 
 <!-- <p align="center">
@@ -43,6 +43,54 @@ To our knowledge, it is the largest dataset in both quantity and resolution for 
 We provide the original 4K version and the convenient 2K version of our UHRSD (Ultra High-Resolution Saliency Detection) Dataset for download: [Google Drive](https://drive.google.com/drive/folders/1u3K65AaKh78P5qKXTsMjVI1SvBXNAPFk?usp=sharing)
 
 <!-- We also provide the resized version UHRSD_2k for convenient downloads in the same url: [Google Drive](https://drive.google.com/drive/folders/1u3K65AaKh78P5qKXTsMjVI1SvBXNAPFk?usp=sharing). -->
+
+## Usage
+### Requirements
+* Python 3.8
+* Pytorch 1.70
+* OpenCV
+* Numpy
+* Apex
+* Timm
+
+### Directory
+The directory should be like this:
+
+````
+-- src 
+-- model (saved model)
+-- pre (pretrained model)
+-- result (saliency maps)
+-- data (train dataset and test dataset)
+   |-- DUTS-TR+HR
+   |   |-- image
+   |   |-- mask
+   |-- UHRSOD+HRSOD
+   |   |--image
+   |   |--mask
+   ...
+   
+````
+
+### Train
+```
+cd src
+./train.sh
+```
+* We implement our method by PyTorch and conduct experiments on 2 NVIDIA 2080Ti GPUs.
+* We adopt pre-trained ResNet-18 and Swin-B-224 as backbone networks, which are saved in PRE folder.
+* We train our method on 3 settings : DUTS-TR, DUTS-TR+HRSOD and UHRSD_TR+HRSOD_TR.
+* After training, the trained models will be saved in MODEL folder.
+
+### Test
+```
+cd src
+python test.py
+```
+* After testing, saliency maps will be saved in RESULT folder
+
+
+
 
 ## Saliency Map
 
