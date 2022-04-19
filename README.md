@@ -78,7 +78,7 @@ cd src
 ./train.sh
 ```
 * We implement our method by PyTorch and conduct experiments on 2 NVIDIA 2080Ti GPUs.
-* We adopt pre-trained ResNet-18 and Swin-B-224 as backbone networks, which are saved in PRE folder.
+* We adopt pre-trained [ResNet-18](https://download.pytorch.org/models/resnet18-5c106cde.pth) and [Swin-B-224](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth) as backbone networks, which are saved in PRE folder.
 * We train our method on 3 settings : DUTS-TR, DUTS-TR+HRSOD and UHRSD_TR+HRSOD_TR.
 * After training, the trained models will be saved in MODEL folder.
 
