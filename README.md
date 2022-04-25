@@ -83,6 +83,8 @@ cd src
 * After training, the trained models will be saved in MODEL folder.
 
 ### Test
+The trained model can be download here: [Google Drive](https://drive.google.com/drive/folders/1hXwCvrdmvkaRePXWPTw5tjFXmrrzHPtt?usp=sharing)
+
 ```
 cd src
 python test.py
