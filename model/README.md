@@ -1,0 +1,2 @@
+The trained model can be download here: [Google Drive](https://drive.google.com/drive/folders/1hXwCvrdmvkaRePXWPTw5tjFXmrrzHPtt?usp=sharing)  
+Rename the downloaded file to *model-31* and move it to this folder.
