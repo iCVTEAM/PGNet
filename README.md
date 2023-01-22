@@ -78,19 +78,26 @@ cd src
 ./train.sh
 ```
 * We implement our method by PyTorch and conduct experiments on 2 NVIDIA 2080Ti GPUs.
-* We adopt pre-trained [ResNet-18](https://download.pytorch.org/models/resnet18-5c106cde.pth) and [Swin-B-224](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth) as backbone networks, which are saved in PRE folder.
+* We adopt pre-trained [ResNet-18](https://download.pytorch.org/models/resnet18-5c106cde.pth) and [Swin-B-224](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth) as backbone networks, which are saved in **pre** folder.
 * We train our method on 3 settings : DUTS-TR, DUTS-TR+HRSOD and UHRSD_TR+HRSOD_TR.
-* After training, the trained models will be saved in MODEL folder.
+* After training, the trained models will be saved in **model** folder.
 
 ### Test
-The trained model can be download here: [Google Drive](https://drive.google.com/drive/folders/1hXwCvrdmvkaRePXWPTw5tjFXmrrzHPtt?usp=sharing)
+The trained model can be download here: [Google Drive](https://drive.google.com/drive/folders/1hXwCvrdmvkaRePXWPTw5tjFXmrrzHPtt?usp=sharing)  
+Rename the downloaded file to *model-31* and save it in **model** folder.
 
+To test on the datasets, change working directory to **src** and run *test.py* as follows:  
 ```
 cd src
 python test.py
 ```
-* After testing, saliency maps will be saved in RESULT folder
 
+To inference on custom images in a folder, change working directory to **src** and run *test_images.py* as follows:  
+```
+cd src
+python test_images.py /path/to/folder
+```
+* After testing, saliency maps will be saved in **result** folder.
 
 
 

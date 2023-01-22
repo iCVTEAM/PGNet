@@ -41,6 +41,14 @@ class Test(object):
 
 if __name__=='__main__':
     for path in ['../data/DAVIS-S','../data/UHRSD_TE','../data/HRSOD_TE','../data/DUT-OMRON','../data/HKU-IS','../data/ECSSD','../data/DUTS-TE','../data/PASCAL-S']:
-	    for model in ['model-27','model-28','model-29','model-30','model-31','model-32']:
-                t = Test(dataset,PGNet, path,'./PGNet_DUT+HR/'+model)
+        if not os.path.isdir(path):
+            print(f'Skipping dataset. Directory does not exist: {path}')
+            continue
+        for model in ['model-27','model-28','model-29','model-30','model-31','model-32']:
+            model_path = os.path.join('model', 'PGNet_DUT+HR', model)
+            if os.path.isfile(model_path):
+                print(f'Testing model {model_path}')
+                t = Test(dataset,PGNet, path, model_path)
                 t.save()
+            else:
+                print(f'Skipping {model_path} because file does not exist.')
