@@ -92,6 +92,7 @@ class Data(Dataset):
             img_name = each.split("/")[-1]
             img_name = img_name.split(".")[0]
             self.samples.append(img_name)
+
     def __getitem__(self, idx):
         name  = self.samples[idx]
         tig='.jpg'
@@ -128,6 +129,23 @@ class Data(Dataset):
     def __len__(self):
         return len(self.samples)
 
+
+class DataImage(Data):
+    def __init__(self, cfg):
+        super().__init__(cfg)
+        self.samples = [os.path.join(self.cfg.datapath, i) for i in os.listdir(self.cfg.datapath)]
+
+    def __getitem__(self, idx):
+        name  = self.samples[idx]
+        image = cv2.imread(name).astype(np.float32)
+        image = image[:,:,::-1].copy()
+
+        mask = image[:,:,0]
+        shape = mask.shape #
+        image, mask = self.normalize(image, mask)
+        image, mask = self.resize(image, mask)
+        image, mask = self.totensor(image, mask)
+        return image, mask, shape, name
 
 ########################### Testing Script ###########################
 if __name__=='__main__':
